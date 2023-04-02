@@ -1,0 +1,58 @@
+* {
+background-color: #cdaf3b; color: #020c44;}
+
+main {
+font-size:1.5em; width:50%; float: left;}
+
+aside {
+font-size: 1.5em; width: 40%; float: right; padding: 20px;}
+
+.banner {
+font-size: 2em; text-align: center;}
+
+.primary-menu li {
+  display: inline;
+  font-family: Arial, "Helvetica Neue", Helvetica, sans-serif;
+  font-weight: bold;}
+  
+table {
+
+  border-collapse: collapse;
+}
+
+table td {
+  border: 4px solid #000;
+}
+
+table td {
+  padding: 5px;}
+
+footer {
+clear: left;}
+   
+@media (min-width: 768px) {
+   
+   main {
+      padding: 20px;
+   }
+
+}
+img {
+   max-width: 100%;
+   height: auto; 
+}
+.media {
+  position: relative;
+  padding-bottom: 56.25%;
+  padding-top: 30px;
+  height: 0;
+  overflow: hidden;
+}
+ 
+.media iframe {
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+}
